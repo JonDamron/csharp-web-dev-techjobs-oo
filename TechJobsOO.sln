@@ -4,7 +4,7 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechJobsOO", "TechJobsOO\TechJobsOO.csproj", "{C76D48E1-4C5C-4DB4-89A2-DBACCF4CBE4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechJobsTest", "UnitTestProject1\TechJobsTest.csproj", "{0D9A3245-ABBD-4223-997D-1D157CDE6B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechJobsTests", "UnitTestProject1\TechJobsTests.csproj", "{0D9A3245-ABBD-4223-997D-1D157CDE6B5A}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C76D48E1-4C5C-4DB4-89A2-DBACCF4CBE4F} = {C76D48E1-4C5C-4DB4-89A2-DBACCF4CBE4F}
 	EndProjectSection
