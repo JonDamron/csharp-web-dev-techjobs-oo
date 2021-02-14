@@ -45,8 +45,8 @@ namespace TechJobsTests
         [TestMethod]
         public void TestToString2()
         {
-            Job testJob = new Job("Product tester", new Employer("ACME"), new Location(" "), new PositionType("Quality control"), new CoreCompetency("Persistance"));
-            string expectedTestString = $"\n ID: {testJob.Id}\n Name: {testJob.Name}\n Employer: {testJob.EmployerName}\n Location: Data not available \n Position Type: {testJob.JobType}\n Core Competency: {testJob.JobCoreCompetency}\n";
+            Job testJob = new Job("Product tester", new Employer("ACME"), new Location(""), new PositionType("Quality control"), new CoreCompetency("Persistance"));
+            string expectedTestString = $"\n ID: {testJob.Id}\n Name: {testJob.Name}\n Employer: {testJob.EmployerName}\n Location: {"Data not available"}\n Position Type: {testJob.JobType}\n Core Competency: {testJob.JobCoreCompetency}\n";
             Assert.AreEqual(testJob.ToString(), expectedTestString);
         }
     }
